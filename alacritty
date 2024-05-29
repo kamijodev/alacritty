@@ -1,0 +1,15 @@
+[font]
+  [font.normal]
+    family = "Hack Nerd Font Mono"
+    style = "Regular"
+  [font.bold]
+    family = "Hack Nerd Font Mono"
+    style = "Bold"
+[shell]
+  program = "/usr/bin/zsh"
+[keyboard]
+  bindings = [
+    { mods = "Control", key = "c", action = "Copy" },
+    { mods = "Control", key = "v", action = "Paste" },
+    { mods = "Control", key = "z", chars = "\u0003" },
+  ]
